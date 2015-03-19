@@ -1,0 +1,5 @@
+<div class="collection">
+    {{#each show in model}}
+        {{#link-to 'show' show class="collection-item"}}{{show.date}}{{/link-to}}
+    {{/each}}
+</div>
