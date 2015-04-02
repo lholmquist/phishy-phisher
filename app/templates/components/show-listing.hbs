@@ -1,0 +1,5 @@
+<ul class="collection">
+    {{#each track in model.tracks}}
+        {{track-listing track=track currentActive=currentActive currentTrackAction=poo}}
+    {{/each}}
+</ul>
